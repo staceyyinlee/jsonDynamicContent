@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono&display=swap');
+
+body {
+  margin: 10vw 10vw 10px 10vw;
+  padding: 0px;
+  background-color: #B3D1F8;
+  color: black;
+  font-family: 'TitanOne-Regular';
+  font-size: 2rem;
+  text-align: center;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+h3 {
+  font-weight: bolder;
+  margin-top: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+#contentGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 2vmin;
+  grid-row-gap: 2vmin;
+  background-color: grey;
+  padding: 2vmin;
+  font-size: 1.5rem;
+}
+
+.contentItem {
+  display: flex;
+  flex-direction: column;
+  padding: 1vmin;
+  color: #BED194;
+  border: 2px solid #eee;
+  border-radius: 0.25vmin;
+  height: 100%;
+}
